@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import "./index.css";
-import { lazy, useState } from "react";
+import CreateAccountPage from "./pages/CreateAccountPage";
+import LoginPage from "./pages/LoginPage";
+import { useState } from "react";
+import Profile from "./pages/Profile";
 
-const CreateAccountPage = lazy(() => import("./pages/CreateAccountPage"))
-const LoginPage = lazy(() => import("./pages/LoginPage"))
-const Profile = lazy(() => import("./pages/Profile"))
 
 function App() {
   const [newAccountData, setNewAccountData] = useState<AccountData>({
