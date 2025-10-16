@@ -3,6 +3,8 @@
 
    ### Key Features
    + Seamless and efficient page transition.
-   + Proper semantic tags usage
-   + Used aria attributes for accessibility
+   + Maintainable and clean structure
+   + Proper semantic HTML tags for improved readability and SEO
+   + Enhanced Accessibility through aria attributes
    + Micro Interaction & UI animation for an engaging user experience
+   
